@@ -1,0 +1,20 @@
+name = Bootswatch - Cyborg
+description = Bootstrap sub-theme
+core = 7.x
+base theme = bootstrap
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+
+settings[toggle_name] = 0
+settings[toggle_search] = 1
+settings[cdn_bootstrap] = 0
+settings[cdn_jquery] = 0
+
+stylesheets[all][]   = css/other_styles.css
+stylesheets[all][] = bootstrap/css/bootstrap.css
